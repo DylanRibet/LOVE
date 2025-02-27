@@ -153,11 +153,11 @@
 
         <div class="question hidden" id="question3">
             <p>Même si je suis casse-pieds tout le temps avec mes LEGO, tu m'aimes ?</p>
-            <button class="button" onclick="repondre('Non', 'question3')">tu est un tantinet casse pied avec tes LEGO ❤️</button>
+            <button class="button" onclick="repondre('Non', 'question3')">tu est un tantinet casse pied avec tes LEGO</button>
             <button class="button" onclick="repondre('Oui', 'question3')">Mais quel question bien sur ❤️</button>
             <div style="margin-top: 20px; font-size: 0.8em; color: #666; font-style: italic;">
             <p><strong>DÉFINITION :</strong> Un tantinet (adv.) : Un tout petit peu, un brin. Exemple : "Il est un tantinet casse-pieds, mais on l'aime quand même."</p>
-            <p> <strong>OUI J'AI PRIS LE TEMPS DE CHERCHER LA DEFINITION POUR TOI MA PETITE QUÉBECOISE </strong></p>
+            <p><strong>OUI J'AI PRIS LE TEMPS DE CHERCHER LA DEFINITION POUR TOI MA PETITE QUÉBECOISE </strong></p>
         </div>
             </div>
         
@@ -167,11 +167,21 @@
             <button class="button" onclick="repondre('Oui', 'question4')">la même réponse qu'à gauche mais x2</button>
             <p>Aucune Mauvaise réponse je suis gentil</p>
         </div>
+        
+        <div class="question hidden" id="question4b">
+            <p><strong>LA RAISON :</strong> J'avais bien du temps libre !</p>
+            <button class="button" onclick="repondre('Oui', 'question4b')">aller clique ici pour voir la suite</button>
+        </div>
 
         <div class="question hidden" id="question5">
             <p>Est-ce que tu as faim ?</p>
             <button class="button" onclick="repondre('Oui', 'question5')">Oui, quel question...</button>
             <button class="button" onclick="repondre('Non', 'question5')">Euh... non pas plus que ça !</button>
+        </div>
+        
+        <div class="question hidden" id="question5b">
+            <p><strong>CA TOMBE BIEN MOI AUSSI</strong></p>
+            <button class="button" onclick="repondre('Oui', 'question5b')">Aller clique ici pour voir la suite ENCORE</button>
         </div>
 
         <div class="question hidden" id="question6">
@@ -186,7 +196,7 @@
         <div class="question hidden" id="question7">
             <p>Tu penses quoi de moi ?</p>
             <button class="button" onclick="repondre('Oui', 'question7')">T'es génial 😘</button>
-            <button class="button" onclick="repondre('Non', 'question7')">T'es... spécial</button>
+            <button class="button" onclick="repondre('Non', 'question7')">T'es... spécial...</button>
         </div>
 
         <div class="question hidden" id="question8">
@@ -194,13 +204,37 @@
             <button class="button" onclick="repondre('Oui', 'question8')">Oui, à la folie ❤️</button>
             <button class="button" onclick="repondre('Non', 'question8')">Non, pas du tout</button>
         </div>
+        
+        <div class="question hidden" id="question9">
+            <p>Je t'aime plus que tout au monde ❤️</p>
+            <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnNteDZ2b282Yzl6cmNkeGV0NGZwenNyaDQzeGZsOHFxaWtrYXB2OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xM3ptQtRagYCs/giphy.gif" alt="Love" class="gif">
+            <p>bordel c'etait si long à faire alors... attend voici la suite</p>
+            <button class="button" onclick="repondre('Oui', 'question9')">Voici ton cadeau</button>
+        </div>
+        
+        <div class="question hidden" id="question10">
+            <p>❤️ TAAADAAAAAA C'EST MOI TON CADEAU ❤️</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTre8P-8hAzE2sGVGSG0Z1y7lBCFKeL95i-hw&s" alt="Love" class="gif">
+            <p>Attennnnnnnnnd</p>
+            <button class="button" onclick="repondre('Oui', 'question10')">Je plaisante, voici ton cadeau</button>
+        </div>
+        
+        <div class="question hidden" id="question11">
+            <p>On va ici, je sais que tu te demandes c’est quoi...... </p>
+            <img src="assets/mascouche.png" alt="Mascouche" style="width: 500px; height: auto;">
+            <p>      <p>
+            <p><strong>LE SEUL TRUC QUE TU DOIS SAVOIR, C’EST QU’IL Y A UN BUDGET SPÉCIALEMENT RÉSERVÉ POUR TOI À CET ENDROIT. ❤️</strong> </p>
+            <button class="button" onclick="repondre('Oui', 'question11')">JE TAIME</button>
+        </div>
 
         <!-- Messages finaux -->
         <div class="message hidden" id="message">
             <p>Je t'aime plus que tout au monde ❤️</p>
-            <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnNteDZ2b282Yzl6cmNkeGV0NGZwenNyaDQzeGZsOHFxaWtrYXB2OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xM3ptQtRagYCs/giphy.gif" alt="Love" class="gif">
-            <p>Hummm tu vas dire que j'ai fait tout ca pour juste ca... attend voici la suite</p>
+            <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExajkwbGxqODVoY2FuZjhhdmc3bGQ0dnhzNzlna3NpMWpmcHJoemczNSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/c76IJLufpNwSULPk77/giphy.gif" alt="Love" class="gif">
+            <p>Hummm tu vas dire que j'ai fait tout ca pour juste ca... et bien ouiiiii hahah</p>
         </div>
+        
+        
 
         <div class="message hidden" id="plotTwist">
             <p>Haha, tu as cru que tu pouvais dire Non ? 😏</p>
