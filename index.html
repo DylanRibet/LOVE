@@ -120,21 +120,6 @@
 </head>
 <body>
 
-    <!-- Page de couverture avec énigme -->
-    <div id="cover">
-        <h1>Devine ce qui t'attend 😏</h1>
-        <p>Pour commencer, résous cette énigme :</p>
-        <p><em>"Je suis toujours devant toi, mais tu ne peux jamais me toucher. Qui suis-je ?"</em></p>
-        <input type="text" id="riddleAnswer" placeholder="Ta réponse ici">
-        <button class="button" onclick="checkRiddle()">Valider</button>
-        <!-- Bouton "Indice" placé directement en dessous du bouton "Valider" -->
-        <button class="button" id="indiceButton" onclick="afficherIndice()" style="margin-top: 10px;">
-            Si t'es pas patiente et tu veux l'Indice, clique ici !
-        </button>
-        <p id="indice" class="hidden" style="margin-top: 10px; font-style: italic; color: #ff4d4d;">
-            Indice : C'est quelque chose que toi et moi voulons construire ensemble et que ça continue longtemps.
-        </p>
-    </div>
 
     <!-- Questionnaire -->
     <div id="questionnaire" class="hidden">
